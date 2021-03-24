@@ -1,0 +1,204 @@
+{
+	"id": "619c66ba-0ad6-462f-8556-aa907e61815d",
+	"name": "swagger-petstore",
+	"timestamp": "2021-03-24T09:26:51.616Z",
+	"collection_id": "93b0b158-f70e-4284-b08c-4f531c6985b3",
+	"folder_id": 0,
+	"environment_id": "4532c933-b3c5-4c60-be01-df5d27d75014",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2d6099e6-2f00-44dd-9fc7-c143cd831da0",
+			"name": "GET-Status",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available&status=pending&status=sold",
+			"time": 871,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				871
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "207630d9-b8fe-4784-8029-a4477f8ba5e4",
+			"name": "GET-petId",
+			"url": "https://petstore.swagger.io/v2/pet/1",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "53e3ee25-90a7-429a-9eba-86d913e038dd",
+			"name": "POST-petId",
+			"url": "https://petstore.swagger.io/v2/pet/",
+			"time": 103,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				103
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5311a405-d76d-471a-90bd-c9a22c1d6080",
+			"name": "POST-pet",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "584ed6da-59fc-4eea-967c-2df4dfe01d3b",
+			"name": "POST-uploadImage",
+			"url": "https://petstore.swagger.io/v2/pet/0/uploadImage",
+			"time": 105,
+			"responseCode": {
+				"code": 415,
+				"name": "Unsupported Media Type"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				105
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "02af7d5a-20b1-4e5f-8fa1-a6d3c7b4566a",
+			"name": "DELETE",
+			"url": "https://petstore.swagger.io/v2/pet/0",
+			"time": 94,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				94
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1368,
+	"collection": {
+		"requests": [
+			{
+				"id": "2d6099e6-2f00-44dd-9fc7-c143cd831da0",
+				"method": "GET"
+			},
+			{
+				"id": "207630d9-b8fe-4784-8029-a4477f8ba5e4",
+				"method": "GET"
+			},
+			{
+				"id": "53e3ee25-90a7-429a-9eba-86d913e038dd",
+				"method": "POST"
+			},
+			{
+				"id": "5311a405-d76d-471a-90bd-c9a22c1d6080",
+				"method": "POST"
+			},
+			{
+				"id": "584ed6da-59fc-4eea-967c-2df4dfe01d3b",
+				"method": "POST"
+			},
+			{
+				"id": "02af7d5a-20b1-4e5f-8fa1-a6d3c7b4566a",
+				"method": "DELETE"
+			}
+		]
+	}
+}
